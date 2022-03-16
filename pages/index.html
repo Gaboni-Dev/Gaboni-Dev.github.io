@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+      Pages - Jeffrey Gaboni
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.png" />
+
+     
+    <link
+      rel="stylesheet"
+      href="/css/style.min.6aae2804ae2187462aa46ad2dfc6681ea7e3658f48b2414a380ce59b32c01eb9.css"
+    />
+      
+    <meta property="og:title" content="Pages" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/pages/" />
+     
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:site" content="@iamthenewking" />
+     
+    <meta name="twitter:creator" content="@iamthenewking" />
+     
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+   
+
+  <body
+    class='page frame page-default-list'
+  >
+    <div id="wrapper" class="wrapper">
+      
+
+      
+  <div class="intro">
+    <h1>Pages<span class="dot">.</span></h1>
+    
+  </div>
+  
+  
+    <div class="summary">
+  
+    <div class="author">
+  <img width="30" class="author-image" src="/images/author.jpg" />
+  <span class="author-name">Jeffrey Gaboni</span>
+  <span class="author-divider"></span>
+  <span class="author-date">January 1, 0001</span>
+</div>
+  
+  <h2 class="summary-title"><a href="/pages/about/">About</a></h2>
+  <p class="summary-description"></p>
+</div>
+  
+ <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-facebook">
+        <a href="https://www.facebook.com/iamthenewking" title="facebook" target="_blank" rel="noopener">
+          <img src="/images/social/facebook.svg" width="24" height="24" alt="facebook"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/zerostaticthemes" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-email">
+        <a href="mailto:mrgabonijeff@gmail.com" title="Email" target="_blank" rel="noopener">
+          <img src="/images/social/email.svg" width="24" height="24" alt="Email"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-resume">
+        <a href="pdf/jeffreygaboni.pdf" title="Resume" target="_blank" rel="noopener">
+          <img src="/images/social/cv.svg" width="24" height="24" alt="Resume"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+    </div>
+
+      
+    <script
+      type="text/javascript"
+      src="/js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"
+    ></script>
+       
+  
+  
+    
+  
+
+
+    <script src="script.js"></script>
+
+    <script type="module">
+      import {
+        annotate,
+        annotationGroup,
+      } from "https://unpkg.com/rough-notation?module";
+
+      const n1 = document.querySelector("em");
+      const n2 = document.querySelector("strong");
+      const n3 = document.querySelector("h1");
+
+      const a1 = annotate(n1, {
+        type: "box",
+        color: "#7c9ec3",
+      });
+
+      const a2 = annotate(n2, {
+        type: "circle",
+        color: "#f5d020",
+        padding: 10,
+      });
+
+      const a3 = annotate(n3, {
+        type: "underline",
+        color: "#7b16ff",
+      });
+
+      const ag = annotationGroup([a1, a2, a3]);
+
+      ag.show();
+    </script>
+  </body>
+</html>
